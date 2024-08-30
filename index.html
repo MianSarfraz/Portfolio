@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarfraz Nawaz - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                Sarfraz<span>Nawaz.dev</span>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="nav-items" id="navItems">
+                <a href="#home" class="nav-item">Home</a>
+                <a href="#about" class="nav-item">About</a>
+                <a href="#projects" class="nav-item">Projects</a>
+                <a href="#skills" class="nav-item">Skills</a>
+                <a href="#contact" class="nav-item">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div class="container home-content">
+            <img src="profile.png" alt="Sarfraz Nawaz Profile Picture" class="home-profile-pic">
+            <div class="home-text">
+                <h1 class="animate-text">Welcome to My Portfolio</h1>
+                <h2 class="animate-text">I'm Sarfraz Nawaz</h2>
+                <p class="animate-text">A passionate Software Engineer creating innovative solutions.</p>
+                <a href="#contact" class="btn animate-btn">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a Software Engineer with 5 years of experience in Shopify development and Conversion Rate Optimization (CRO). I'm passionate about building high-converting online stores and constantly strive to learn and grow in my field.</p>
+                    <p>My goal is to help businesses generate millions in sales revenue through top-notch Shopify stores.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Client Satisfaction</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Elisane Store</h3>
+                    <p>Developed and optimized a professional online store for Elisane Textile, fixing bugs and adding new components.</p>
+                    <a href="https://verinelle.com/" class="btn-small">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Celestial Home Store</h3>
+                    <p>Created an elegant store offering bed comforter sets, focusing on SEO and user experience.</p>
+                    <a href="https://celestialhome.store/" class="btn-small">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Bricabyte</h3>
+                    <p>Built a comprehensive system for a Brick Manufacturing Plant to manage inventory, invoices, and employee records.</p>
+                    <a href="#" class="btn-small">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-list">
+                <div class="skill-item" data-skill="HTML">HTML</div>
+                <div class="skill-item" data-skill="CSS">CSS</div>
+                <div class="skill-item" data-skill="JavaScript">JavaScript</div>
+                <div class="skill-item" data-skill="React">React</div>
+                <div class="skill-item" data-skill="Node.js">Node.js</div>
+                <div class="skill-item" data-skill="Python">Python</div>
+                <div class="skill-item" data-skill="Shopify">Shopify Development</div>
+                <div class="skill-item" data-skill="CRO">CRO</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <form id="contactForm" action="https://formsubmit.co/sarfraznawaz266@gmail.com" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <input type="hidden" name="_subject" value="New contact form submission from Portfolio">
+                <input type="hidden" name="_captcha" value="false">
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Sarfraz Nawaz. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/muhammad-sarfraz-nawaz-6b1a941a2/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/MianSarfraz" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
