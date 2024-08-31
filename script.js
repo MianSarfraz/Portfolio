@@ -21,16 +21,12 @@ document.addEventListener('DOMContentLoaded', function() {
     contactForm.addEventListener('submit', function(event) {
         event.preventDefault();
         
-        // You can add additional client-side validation here if needed
-        
         // Submit the form
         this.submit();
 
-        // Optional: Show a success message
         alert('Thank you for your message! We will get back to you soon.');
     });
 
-    // Smooth scrolling for navigation links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
@@ -41,7 +37,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Optional: Add animation to skills
     const skillItems = document.querySelectorAll('.skill-item');
     skillItems.forEach(item => {
         item.addEventListener('mouseover', () => {
